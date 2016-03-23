@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 .home-page-top-main {
   width: 100%;
-  height: 400px;
+  height: 325px;
   position: relative;
   background: url('img/headphones-bg.jpg') center no-repeat;
   background-size: cover;
@@ -12,7 +12,11 @@
   position: absolute;
   left: 30px;
   top: 30px;
-  background: #000;
+  /*background: url('img/menu-icon.png');
+  background-size: contain;*/
+}
+.menu img {
+  width: 100%;
 }
 .home-page-content-top {
   text-align: left;
@@ -26,7 +30,7 @@
   width: 200px;
   padding: 10px 0 10px 0;
   position: absolute;
-  bottom: 50px;
+  bottom: 40px;
   left: 30px;
   background: #000;
   border-radius: 50px;
@@ -35,4 +39,11 @@
 .home-top-button a {
   color: #fff;
   font-family: 'Lato', sans-serif;
+}
+.boximg {
+width: 50%;
+float: left;
+}
+.boximg img {
+  width: 100%;
 }
